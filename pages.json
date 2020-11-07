@@ -1,0 +1,77 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "列表"
+			}
+		},
+		{
+			"path": "pages/introduce/introduce",
+			"style": {
+				"navigationBarTitleText": "简介"
+			}
+		},
+		{
+			"path": "pages/contact/contact",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		}
+        ,{
+            "path" : "pages/goods_list",
+            "style" : {
+				"navigationBarTitleText": "商品列表"
+			}
+        }
+        ,{
+            "path" : "pages/details/details",
+            "style" : {
+				"navigationBarTitleText": "商品详情"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#2894FF",
+		"backgroundTextStyle":"light"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#d81e06",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/shouye.png",
+				"selectedIconPath": "static/image/shouye-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/list/list",
+				"iconPath": "static/image/list.png",
+				"selectedIconPath": "static/image/list-active.png",
+				"text": "列表"
+			},
+			{
+				"pagePath": "pages/introduce/introduce",
+				"iconPath": "static/image/jianjie.png",
+				"selectedIconPath": "static/image/jianjie-active.png",
+				"text": "简介"
+			},
+			{
+				"pagePath": "pages/contact/contact",
+				"iconPath": "static/image/about.png",
+				"selectedIconPath": "static/image/about-active.png",
+				"text": "我们"
+			}
+		]
+	}
+}

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/introduce/introduce",
+    "pages/contact/contact",
+    "pages/goods_list",
+    "pages/details/details"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#2894FF",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/shouye.png",
+        "selectedIconPath": "static/image/shouye-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "static/image/list.png",
+        "selectedIconPath": "static/image/list-active.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/introduce/introduce",
+        "iconPath": "static/image/jianjie.png",
+        "selectedIconPath": "static/image/jianjie-active.png",
+        "text": "简介"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "iconPath": "static/image/about.png",
+        "selectedIconPath": "static/image/about-active.png",
+        "text": "我们"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap23.json"
+}
